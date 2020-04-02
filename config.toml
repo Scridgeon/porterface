@@ -78,8 +78,8 @@ disableHugoGeneratorInject = false
   contentTypeName = "posts"
 
   # Default theme "light" or "dark"
-  defaultTheme = "dark"
-  themeColor = "#252627"
+  #defaultTheme = "dark"
+  #themeColor = "#252627"
 
   # Colors for favicons
   [params.favicon.color]
