@@ -9,7 +9,7 @@ PygmentsCodeFences = true
 PygmentsStyle = "monokai"
 
 rssLimit  = 10  # Maximum number of items in the RSS feed.
-copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
+#copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
 
 # googleAnalytics = ""
 # disqusShortname = ""
@@ -23,7 +23,7 @@ publishDir   = "public"
 buildDrafts  = false
 buildFuture  = false
 buildExpored = false
-canonifyURLs = true
+canonifyURLs = false # true will break theme
 
 enableRobotsTXT = true
 enableGitInfo   = false
@@ -78,7 +78,7 @@ disableHugoGeneratorInject = false
   contentTypeName = "posts"
 
   # Default theme "light" or "dark"
-  #defaultTheme = "dark"
+  defaultTheme = "dark"
   #themeColor = "#252627"
 
   # Colors for favicons
